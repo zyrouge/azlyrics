@@ -1,5 +1,5 @@
 # azlyrics
-An AZLyrics scrapper/fetcher. ***Use at your own risk!***
+An AZLyrics scraper/fetcher. ***Use at your own risk!***
 
 ### Procedure
 * Download this project.
