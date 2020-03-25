@@ -1,10 +1,16 @@
-const azlyrics = require("./src/index");
-const readline = require('readline');
-const chalk = require('chalk');
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+try {
+    const azlyrics = require("./src/index");
+    const readline = require('readline');
+    const chalk = require('chalk');
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout
+    });
+    const cheerio = require("cheerio");
+    const axios = require("axios");
+} catch (e) {
+    return console.log(`Dependencies not found! Use "npm i" to install it!`);
+}
 const credits = `
 /***
  *     /$$$$$$$$                                                            
